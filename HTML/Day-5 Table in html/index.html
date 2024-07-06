@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in html</title>
+    <style>
+           thead{
+            background-color: black;
+            color: white;
+        }
+        tfoot{
+            background-color: black;
+            color: white;
+        }
+        tbody{
+            background-color: lightcoral;            
+        }
+    </style>
+</head>
+<body>
+    <table border="1" align="center" cellpadding="20px" cellspacing="5px" rule="all">
+        
+             <caption>COURSE DETAILS</caption>
+    <thead>
+        <tr align="center ">
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr align="center">
+            <td>1</td>
+            <td>Soni</td>
+            <td rowspan="2">BCA</td>
+            <td colspan="2">50000</td>
+        </tr>
+    </tbody>
+
+    </body>
+        <tr align="center">
+            <td>2</td>
+            <td>Meenu</td>
+            <td>BCA</td>
+            <td>50000</td>
+        </tr>
+
+        <tr align="center">
+            <td>3</td>
+            <td>Sweta</td>
+            <td>MCA</td>
+            <td colspan="2">70000</td>
+        </tr>
+
+        <tr align="center">
+            <td>4</td>
+            <td>Chanchal</td>
+            <td>B.COM</td>
+            <td>30000</td>
+        </tr>
+    </body>
+
+     <tfoot>
+        <tr align="center">
+            <td >Total Price</td>
+            <td >200000</td>          
+        </tr>
+     </tfoot>
+    
+    </table>
+</body>
+</html>

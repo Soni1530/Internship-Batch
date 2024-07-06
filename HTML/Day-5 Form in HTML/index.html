@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+    <style>
+         fieldset{
+            width: 200px;
+            border: 2px solid deeppink;
+            margin: 50px auto;
+            background-color: rgb(132, 231, 229);
+
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <!-- caption -->
+             <legend><b>SIGN IN FORM</b></legend>
+        <label for="name">Name
+            <input type="text" required placeholder="enter your name">
+        </label>
+        <br>
+        <br>
+        
+        <label for="mobile">Phone no: 
+            <input type="tel" required placeholder="+91**********">
+        </label>
+        <br>
+        <br>
+
+         <label for="user-email">E-mail
+                <input type="email" name="" id="user-email" required placeholder="enter email address">
+         </label>
+        <br>
+        <br>
+        <label for="pass"> Password
+            <input type="password" name="" id="pass" required placeholder="atleast 8 character">
+        </label>
+        <br>
+        <br>
+        <label for="user-info">Submit your resume & sign</label>
+        <br>
+        <br>
+        <input type="file" multiple required>
+        </br>
+        <br>
+        <label for="gender" name="gender">Gender</label>
+        <br>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">Female
+        <input type="radio"name="gender">Others
+        <br>
+        <br>
+        <label for="hobbies">Hobbies</label>
+        <br>
+        <input type="checkbox">Dance
+        <input type="checkbox">singing
+        <input type="checkbox">traveling
+        <input type="checkbox">watching
+        <input type="checkbox">sleeping
+        <br>
+        <br>    
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </fieldset>
+    </form>
+
+</body>
+</html>
